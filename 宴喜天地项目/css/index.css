@@ -1,0 +1,245 @@
+
+/* 顶部 */
+.header {
+    width: 100%;
+}
+.headerTop {
+    width: 100%;
+    text-align: center;
+}
+.headerTop img {
+    width: 20%;
+    height: 100%;
+}
+.headerTop span {
+    font-size: 20px;
+}
+/* 轮播 swiper */
+html, body {
+    position: relative;
+    height: 100%;
+  }
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-container .swiper-wrapper img{
+      width: 100%;
+  }
+
+  /* 内容 */
+.content{
+    width:100%;
+    padding: 10px;
+}
+.content ul li {
+    list-style: none;
+    /* height: 64px; */
+    float: left;
+    width: 48%;
+    background: #f2f2f2;
+    margin-right: 6px;
+    margin-top: 9px;
+    border-radius: 10px;
+}
+.content ul li .liD {
+    width: 50%;
+}
+.content ul li img{
+    width: 100%;
+    height: 150%;
+
+}
+.content ul li .contentBg {
+    width: 50%;
+    
+}
+.content ul li p {
+    padding: 6px;
+
+    /* line-height: 55px; */
+}
+.font1 {
+    color: #000000;
+    font-weight: bold;
+}
+.font2 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+
+/* 宴喜天地 */
+.yanX {
+    text-align: center;
+    height: 100px;
+}
+.yanX p {
+    margin: 0;
+    padding: 0;
+}
+.yanX .span1 {
+    font-size: 20px;
+    color: #FF0000;
+}
+.yanX .span2 {
+    color: #333333;
+    font-size: 16px;
+}
+.line{
+    font-family: 微软雅黑;
+    color: #333333;
+    font-size: 2.2rem;
+}
+
+/* 底部 */
+.footer {
+    text-align: center;
+    margin: 20px 0 2px;
+    height: 120px;
+}
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+
+/* 底部浮动 */
+.floatFooter {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #5a5a5a;
+    opacity: 0.8;
+    text-align: center;
+}
+.floatFooter .icon {
+    text-align: center;
+    float: left;
+    margin: 5px 14px;
+    color: #fff;
+    /* margin: auto; */
+}
+.floatFooter .icon i {
+    font-size: 24px;
+}
+.floatFooter .icon p {
+    font-size: 12px;
+}
+
+/* 按钮 */
+.btnMeau {
+    width: 44px;
+    height: 34px;
+    position: fixed;
+    left: 6%;
+    bottom: 9%;
+    z-index: 111;
+    
+}
+.btnSty {
+    width: 38px;
+    height: 38px;
+    border: 2px solid #fff;
+    background-color: #FF0000;
+    border-radius: 50%;
+}
+.icon-bar {
+    background-color: #ffffff;
+}
+
+#navbar-toggle {
+    padding: 9px 10px;
+    margin: 0!important;
+}
+.meau {
+    width: 325%;
+    height: 308px;
+    background: #EFE;
+    position: absolute;
+    left: 20px;
+    top: -289px;
+    opacity:0.8;
+    display: none;
+}
+.meau li {
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    padding: 10px;
+}
+#meanUl li {
+    display: none;
+}
+
+
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?cw0yf8');
+    src:  url('../fonts/icomoon.eot?cw0yf8#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?cw0yf8') format('truetype'),
+      url('../fonts/icomoon.woff?cw0yf8') format('woff'),
+      url('../fonts/icomoon.svg?cw0yf8#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    /* speak: none; */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-qq:before {
+    content: "\e901";
+  }
+  .icon-phone:before {
+    content: "\e942";
+  }
+  .icon-location2:before {
+    content: "\e948";
+  }
+  .icon-mail4:before {
+    content: "\ea86";
+  }
